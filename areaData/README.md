@@ -9,6 +9,17 @@
 腾讯地图： https://apis.map.qq.com/ws/district/v1/list?key=OB4BZ-D4W3U-B7VVO-4PJWW-6TKDJ-WPB77
 
 社区官方给的说法是：先用中国民政部的数据，但二级（市）行政单位没有三级行政区的（例如：东莞市），用国家统计局的四级行政区代替。（但都没有港澳台数据）。
+没有三级行政区的市：
+
+=====city { code: '441900', name: '东莞市', area: [] }
+
+=====city { code: '442000', name: '中山市', area: [] }
+
+=====city { code: '460300', name: '三沙市', area: [] }
+
+=====city { code: '460400', name: '儋州市', area: [] }
+
+=====city { code: '620200', name: '嘉峪关市', area: [] }
 
 用puppeteer实际爬出来的数据有出入：
 1. code: '620200', name: '嘉峪关市', 这个城市很特别，微信picker数据与国家统计局不同。
