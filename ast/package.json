@@ -1,0 +1,11 @@
+{
+  "name": "ast",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "node build"
+  },
+  "dependencies": {
+    "esprima": "^4.0.1",
+  }
+}
